@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jandre Villanueva | Portfolio</title>
+
+    <!-- OUTFIT FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ICON SPRITE -->
+    <svg style="display:none">
+        <symbol id="icon-html" viewBox="0 0 24 24"><path d="M8 6 3 12l5 6M16 6l5 6-5 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="icon-css" viewBox="0 0 24 24"><rect x="4" y="4" width="12" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.6"/><rect x="8" y="8" width="12" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+        <symbol id="icon-js" viewBox="0 0 24 24"><text x="12" y="16.5" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor" font-family="Arial, sans-serif">{ }</text></symbol>
+        <symbol id="icon-java" viewBox="0 0 24 24"><path d="M8 14c-2 1-2 3 4 3s6-2 4-3M9 3c-1.5 2 3 3 1.5 5M13 3c-1.5 2 3 3 1.5 5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 11c-3 0-3 4 2 4h8c5 0 5-4 2-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+        <symbol id="icon-mysql" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M20 5v6c0 1.4-3.6 2.5-8 2.5S4 12.4 4 11V5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M20 11v6c0 1.4-3.6 2.5-8 2.5S4 18.4 4 17v-6" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+        <symbol id="icon-git" viewBox="0 0 24 24"><line x1="6" y1="3" x2="6" y2="15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="18" cy="6" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="6" cy="18" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M18 8.5a7.5 7.5 0 0 1-7.5 7.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 6.5 12 13l8.5-6.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><line x1="7.5" y1="10" x2="7.5" y2="16.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><circle cx="7.5" cy="6.7" r="1.1" fill="currentColor"/><path d="M11.5 16.5V10M11.5 12.8c0-1.8 1.3-2.8 2.8-2.8s2.2 1 2.2 2.8v3.7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="icon-github" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7 10l3 2.2L7 14.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><line x1="12" y1="14.5" x2="16.5" y2="14.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+        <symbol id="icon-uiux" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><line x1="3" y1="9" x2="21" y2="9" stroke="currentColor" stroke-width="1.6"/><line x1="9" y1="9" x2="9" y2="20" stroke="currentColor" stroke-width="1.6"/></symbol>
+        <symbol id="icon-arrow" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><polyline points="13,6 19,12 13,18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="icon-external" viewBox="0 0 24 24"><path d="M17 13v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><polyline points="14,3 20,3 20,9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><line x1="10.5" y1="13.5" x2="19.5" y2="4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    </svg>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="nav-inner">
+            <div class="logo">UNC.</div>
+
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <header class="hero">
+
+        <div class="hero-text">
+
+            <p class="intro">Hello, I'm</p>
+
+            <h1>Jandre Villanueva</h1>
+
+            <h2>Web Designer & Developer</h2>
+
+            <p class="hero-description">
+                I design and build clean, modern, and responsive websites focused on great user experience, functionality, and thoughtful visual design.
+            </p>
+
+            <a href="#projects" class="button">View My Work</a>
+
+        </div>
+
+        <div class="profile-image">
+            <img src="images/profile.jpg" alt="My Profile Picture" onerror="this.style.display='none'">
+        </div>
+
+    </header>
+
+
+    <!-- ABOUT -->
+    <section id="about">
+
+        <p class="section-label">ABOUT</p>
+
+        <h2>About Me</h2>
+
+        <p class="about-text">
+            I'm a web designer and developer focused on creating clean, modern, and user-friendly websites. I enjoy turning ideas into functional digital experiences through thoughtful design and development. I work with front-end technologies to build responsive websites that look good and work smoothly across different devices.
+        </p>
+
+        <p class="about-text">
+            Driven by simplicity, creativity, and functionality, I aim to create digital experiences that bring ideas to life with purpose.
+        </p>
+
+
+        <div class="skills">
+            <span><svg class="icon"><use href="#icon-html"></use></svg>HTML</span>
+            <span><svg class="icon"><use href="#icon-css"></use></svg>CSS</span>
+            <span><svg class="icon"><use href="#icon-js"></use></svg>JavaScript</span>
+            <span><svg class="icon"><use href="#icon-java"></use></svg>Java</span>
+            <span><svg class="icon"><use href="#icon-mysql"></use></svg>MySQL</span>
+            <span><svg class="icon"><use href="#icon-uiux"></use></svg>UI/UX Design</span>
+            <span><svg class="icon"><use href="#icon-git"></use></svg>Git</span>
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects">
+
+        <p class="section-label">PROJECTS</p>
+
+        <h2>Things I've Built</h2>
+
+        <div class="project-grid">
+
+            <article class="project-card">
+
+                <div class="project-number">I</div>
+
+                <h3>Personal Portfolio Website</h3>
+
+                <p>
+                    A responsive personal portfolio site built from scratch to showcase my skills and projects. Features a dark, minimal design with smooth scroll animations, an interactive skills section, and a contact page. All built with vanilla HTML, CSS, and JavaScript.
+                </p>
+
+                <div class="project-tech">
+                    HTML • CSS • JavaScript
+                </div>
+
+                <div class="project-links">
+                    <a href="#">View Project <svg class="icon"><use href="#icon-arrow"></use></svg></a>
+                    <a href="#">GitHub <svg class="icon"><use href="#icon-external"></use></svg></a>
+                </div>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-number">II</div>
+
+                <h3>RevLog</h3>
+                <h3> </h3>
+                <h3> </h3>
+
+                <p>
+                    A personal motorcycle maintenance tracker project built to keep track of mileage, service history, maintenance schedules, and expenses. RevLog helps to monitor motorcycle's condition and know when the next service is due.
+                </p>
+
+                <div class="project-tech">
+                    HTML • CSS • JavaScript • LocalStorage
+                </div>
+
+                <div class="project-links">
+                    <a href="#">View Project <svg class="icon"><use href="#icon-arrow"></use></svg></a>
+                    <a href="#">GitHub <svg class="icon"><use href="#icon-external"></use></svg></a>
+                </div>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-number">III</div>
+
+                <h3>Coming Soon</h3>
+                <h3> </h3>
+                <h3> </h3>
+
+                <p>
+                    Currently working on more projects and improving
+                    my development skills.
+                </p>
+
+                <div class="project-tech">
+                    Learning • Building • Improving
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact">
+
+        <p class="section-label">CONTACT</p>
+
+        <h2>Let's Connect.</h2>
+
+        <p class="contact-intro">
+            Have a question or want to work together?
+            Feel free to reach out.
+        </p>
+
+        <a class="email-button" href="mailto:your@gmail.com">
+            drevillanueva75@gmail.com
+        </a>
+
+        <div class="contact-links">
+
+    <!-- EMAIL -->
+    <a class="contact-row" href="mailto:drevillanueva75@gmail.com">
+        <span class="contact-icon">
+            <svg class="icon">
+                <use href="#icon-mail"></use>
+            </svg>
+        </span>
+
+        <span class="contact-text">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">drevillanueva75@gmail.com</span>
+        </span>
+    </a>
+
+
+    <!-- LINKEDIN -->
+    <a class="contact-row"
+       href="https://www.linkedin.com/in/jandre-villanueva-95945143a/"
+       target="_blank"
+       rel="noopener">
+
+        <span class="contact-icon">
+            <svg class="icon">
+                <use href="#icon-linkedin"></use>
+            </svg>
+        </span>
+
+        <span class="contact-text">
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">linkedin.com/in/jandre-villanueva</span>
+        </span>
+    </a>
+
+
+    <!-- GITHUB -->
+    <a class="contact-row"
+       href="https://github.com/jandre2005"
+       target="_blank"
+       rel="noopener">
+
+        <span class="contact-icon">
+            <svg class="icon">
+                <use href="#icon-github"></use>
+            </svg>
+        </span>
+
+        <span class="contact-text">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/jandre2005</span>
+        </span>
+    </a>
+
+</div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© <span id="year"></span> Jandre Villanueva</p>
+        <p>Designed & Built by UNC.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
