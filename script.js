@@ -50,3 +50,29 @@ document.querySelectorAll(".project-card").forEach(card => {
         card.style.setProperty("--my", `${e.clientY - rect.top}px`);
     });
 });
+
+// Navbar scroll effect
+const navbar = document.querySelector("nav");
+
+window.addEventListener("scroll", () => {
+    navbar.classList.toggle("scrolled", window.scrollY > 20);
+}, { passive: true });
+
+
+// Highlight active nav link
+const navLinks = document.querySelectorAll("nav ul a");
+const navSections = document.querySelectorAll("section[id]");
+
+window.addEventListener("scroll", () => {
+    let current = "";
+
+    navSections.forEach(section => {
+        if (window.scrollY >= section.offsetTop - 200) {
+            current = section.id;
+        }
+    });
+
+    navLinks.forEach(link => {
+        link.classList.toggle("active", link.getAttribute("href") === "#" + current);
+    });
+}, { passive: true });
